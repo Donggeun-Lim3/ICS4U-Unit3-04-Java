@@ -67,7 +67,8 @@ final class StackForm {
                     aStack.showStack();
                 }
                 else if (userInput.startsWith(allowedCommands[indexThree])) {
-                    System.out.println(aStack.peek());
+                    System.out.println("The element at the top of the stack is : "
+                                       + aStack.peek());
                 }
                 else if (userInput.startsWith(allowedCommands[indexFour])) {
                     aStack.clear();
